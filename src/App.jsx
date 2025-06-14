@@ -10,18 +10,15 @@ import PageNotFound from "./pages/PageNotFound";
 
 export default function App() {
   return (
-    <AlertProvider>
-      <BrowserRouter>
-        <Routes>
-          <Route element={<DefaultLayout />}>
-            <Route index element={<HomePage />} />
-
-            <Route path="/about-us" element={<AboutUs />} />
-            <Route path="/contacts" element={<ContactUs />} />
-          </Route>
-          <Route path="*" element={<PageNotFound />} />
-        </Routes>
-      </BrowserRouter>
-    </AlertProvider>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<DefaultLayout />}>
+          <Route index element={<HomePage />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/contacts" element={<ContactUs />} />
+        </Route>
+        <Route path="*" element={<PageNotFound />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
