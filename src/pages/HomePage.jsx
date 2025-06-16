@@ -1,7 +1,8 @@
+import Jumbo from "../components/Jumbo";
 export default function HomePage() {
   return (
     <div>
-      <h1>abpot us</h1>
+      <Jumbo />
     </div>
   );
 }
