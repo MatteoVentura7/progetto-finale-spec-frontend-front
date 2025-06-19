@@ -60,10 +60,10 @@ export default function Jumbo() {
           </div>
           <div className="image relative">
             <picture>
-              <source srcSet="public\cantina.jpg" media="(max-width: 500px)" />
-              <source srcSet="public\cantina.jpg" media="(max-width: 950px)" />
+              <source srcSet="\cantina.jpg" media="(max-width: 500px)" />
+              <source srcSet="\cantina.jpg" media="(max-width: 950px)" />
               <img
-                src="public\cantina.jpg"
+                src="\cantina.jpg"
                 alt=""
                 className="w-full h-auto object-cover"
               />
@@ -79,10 +79,10 @@ export default function Jumbo() {
           </div>
           <div className="image relative">
             <picture>
-              <source srcSet="public\enoteca.jpg" media="(max-width: 500px)" />
-              <source srcSet="public\enoteca.jpg" media="(max-width: 950px)" />
+              <source srcSet="\enoteca.jpg" media="(max-width: 500px)" />
+              <source srcSet="\enoteca.jpg" media="(max-width: 950px)" />
               <img
-                src="public\enoteca.jpg"
+                src="\enoteca.jpg"
                 alt=""
                 className="w-full h-auto object-cover"
               />

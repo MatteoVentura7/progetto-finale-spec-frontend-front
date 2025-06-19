@@ -11,14 +11,10 @@ export default function MainNav() {
         </li>
 
         <li>
-          <NavLink className="animated-underline" to="/about-us">
-            Chi Siamo
-          </NavLink>
+          <a href="#about">chi siamo</a>
         </li>
         <li>
-          <NavLink className="animated-underline" to="/contacts">
-            Contatti
-          </NavLink>
+          <a href="#contact"></a>
         </li>
       </ul>
     </nav>
